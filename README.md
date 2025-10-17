@@ -22,6 +22,15 @@ python pub_sim_final.py
 
 **Pronto!** A simulação rodará até T=30 minutos e exibirá os resultados no console.
 
+## 📂 Simulações Manuais Incluídas
+
+Este repositório contém **duas simulações manuais completas** até T=30 minutos, conforme solicitado nas instruções do exercício:
+
+- **[SIMULACAO_MANUAL_1.md](SIMULACAO_MANUAL_1.md)** - Primeira simulação manual detalhada
+- **[SIMULACAO_MANUAL_2.md](SIMULACAO_MANUAL_2.md)** - Segunda simulação manual detalhada
+
+Ambas as simulações utilizam o método das três fases e seguem rigorosamente as tabelas especificadas (3.6, 3.7, 3.8, 3.9), demonstrando o funcionamento correto do sistema.
+
 ## 📋 Descrição
 
 Este projeto simula o funcionamento de um pub com as seguintes características:
