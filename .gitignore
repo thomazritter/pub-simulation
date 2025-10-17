@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+venv/
+env/
+ENV/
+bin/
+lib/
+include/
+pyvenv.cfg
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Simulation Output (auto-generated)
+log_simulacao_pub.md
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
