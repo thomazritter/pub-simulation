@@ -1,8 +1,8 @@
-# SIMULAÇÃO MANUAL 2 - Até T=30 minutos
+# SIMULAÇÃO MANUAL 2 - Até T30 minutos
 
 **Data de execução:** 17/10/2025  
 **Método:** Três Fases (Three-Phase Approach)  
-**Objetivo:** Segunda simulação manual até o instante T=30 minutos para verificação
+**Objetivo:** Segunda simulação manual até o instante T30 minutos para verificação
 
 ## Dados Utilizados
 
@@ -23,126 +23,126 @@ Como o simulador utiliza as mesmas tabelas fixas (3.6, 3.7, 3.8, 3.9) e sempre c
 
 ---
 
-================================================================================
+
 🍺 SIMULAÇÃO DO PUB - Método das Três Fases
-================================================================================
+
 
 ⏱️  Tempo máximo: 30 minutos
 📊 Usando tabelas pré-definidas (3.6, 3.7, 3.8, 3.9)
 
-================================================================================
 
-================================================================================
+
+
 🍺 SIMULAÇÃO MANUAL DO PUB - MÉTODO DAS TRÊS FASES
-================================================================================
+
 
 FASE A: Verificar tempo de término e determinar atividade que terminará
 FASE B: Processar atividades terminadas e mover entidades
 FASE C: Iniciar novas atividades quando possível
-================================================================================
-  FASE C: C1: Chega começa T=0 e termina em T=0+1=1 (tab. 3.6, N=1), SEDE=4
+
+  FASE C: C1: Chega começa T0 e termina em T0+11 (tab. 3.6, N1), SEDE4
 
 
-================================================================================
-T=1
-  FASE B: C1: Chega termina T=1
-  FASE C: C1G1: Enche começa T=1 e termina em T=1+5=6 (tab. 3.9, N=5)
 
-================================================================================
-T=1
-  FASE C: C2: Chega começa T=1 e termina em T=1+10=11 (tab. 3.6, N=10), SEDE=2
-
-================================================================================
-T=1
+T1
+  FASE B: C1: Chega termina T1
+  FASE C: C1G1: Enche começa T1 e termina em T1+56 (tab. 3.9, N5)
 
 
-================================================================================
-T=6
-  FASE B: C1G1: Enche termina T=6
-  FASE C: C1: Bebe começa T=6 e termina em T=6+7=13 (tab. 3.8, N=7)
+T1
+  FASE C: C2: Chega começa T1 e termina em T1+1011 (tab. 3.6, N10), SEDE2
 
 
-================================================================================
-T=11
-
-================================================================================
-T=11
-  FASE B: C2: Chega termina T=11
-  FASE C: C2G2: Enche começa T=11 e termina em T=11+5=16 (tab. 3.9, N=5)
-
-================================================================================
-T=11
-  FASE C: C3: Chega começa T=11 e termina em T=11+15=26 (tab. 3.6, N=15), SEDE=1
+T1
 
 
-================================================================================
-T=13
-  FASE B: C1: Bebe termina T=13, SEDE=3
-  FASE C: OG1: Lava começa T=13 e termina em T=13+5=18 (N=5)
+
+T6
+  FASE B: C1G1: Enche termina T6
+  FASE C: C1: Bebe começa T6 e termina em T6+713 (tab. 3.8, N7)
 
 
-================================================================================
-T=16
-  FASE B: C2G2: Enche termina T=16
-  FASE C: C2: Bebe começa T=16 e termina em T=16+7=23 (tab. 3.8, N=7)
-  FASE C: OG2: Lava começa T=16 e termina em T=16+5=21 (N=5)
+
+T11
 
 
-================================================================================
-T=18
-  FASE B: OG1: Lava termina T=18
-  FASE C: C1G1: Enche começa T=18 e termina em T=18+6=24 (tab. 3.9, N=6)
+T11
+  FASE B: C2: Chega termina T11
+  FASE C: C2G2: Enche começa T11 e termina em T11+516 (tab. 3.9, N5)
 
 
-================================================================================
-T=21
+T11
+  FASE C: C3: Chega começa T11 e termina em T11+1526 (tab. 3.6, N15), SEDE1
 
 
-================================================================================
-T=23
-  FASE B: C2: Bebe termina T=23, SEDE=1
-  FASE C: OG2: Lava começa T=23 e termina em T=23+5=28 (N=5)
+
+T13
+  FASE B: C1: Bebe termina T13, SEDE3
+  FASE C: OG1: Lava começa T13 e termina em T13+518 (N5)
 
 
-================================================================================
-T=24
-  FASE B: C1G1: Enche termina T=24
-  FASE C: C1: Bebe começa T=24 e termina em T=24+6=30 (tab. 3.8, N=6)
-  FASE C: OG1: Lava começa T=24 e termina em T=24+5=29 (N=5)
+
+T16
+  FASE B: C2G2: Enche termina T16
+  FASE C: C2: Bebe começa T16 e termina em T16+723 (tab. 3.8, N7)
+  FASE C: OG2: Lava começa T16 e termina em T16+521 (N5)
 
 
-================================================================================
-T=26
-  FASE B: C3: Chega termina T=26
 
-================================================================================
-T=26
-  FASE C: C4: Chega começa T=26 e termina em T=26+6=32 (tab. 3.6, N=6), SEDE=2
-
-================================================================================
-T=26
+T18
+  FASE B: OG1: Lava termina T18
+  FASE C: C1G1: Enche começa T18 e termina em T18+624 (tab. 3.9, N6)
 
 
-================================================================================
-T=28
-  FASE B: OG2: Lava termina T=28
-  FASE C: C3G2: Enche começa T=28 e termina em T=28+5=33 (tab. 3.9, N=5)
+
+T21
 
 
-================================================================================
-T=29
-  FASE C: C2G1: Enche começa T=29 e termina em T=29+5=34 (tab. 3.9, N=5)
+
+T23
+  FASE B: C2: Bebe termina T23, SEDE1
+  FASE C: OG2: Lava começa T23 e termina em T23+528 (N5)
 
 
-================================================================================
-T=30
-  FASE B: C1: Bebe termina T=30, SEDE=2
 
-================================================================================
+T24
+  FASE B: C1G1: Enche termina T24
+  FASE C: C1: Bebe começa T24 e termina em T24+630 (tab. 3.8, N6)
+  FASE C: OG1: Lava começa T24 e termina em T24+529 (N5)
 
-============================================================
+
+
+T26
+  FASE B: C3: Chega termina T26
+
+
+T26
+  FASE C: C4: Chega começa T26 e termina em T26+632 (tab. 3.6, N6), SEDE2
+
+
+T26
+
+
+
+T28
+  FASE B: OG2: Lava termina T28
+  FASE C: C3G2: Enche começa T28 e termina em T28+533 (tab. 3.9, N5)
+
+
+
+T29
+  FASE C: C2G1: Enche começa T29 e termina em T29+534 (tab. 3.9, N5)
+
+
+
+T30
+  FASE B: C1: Bebe termina T30, SEDE2
+
+
+
+
 📊 MÉTRICAS DE PERFORMANCE
-============================================================
+
 
 🕐 Tempo médio em fila (ESPERA): 8.00 minutos
 
@@ -161,14 +161,14 @@ T=30
 😴 Taxa de ociosidade das garçonetes:
    G1: 13.3%
    G2: 33.3%
-============================================================
+
 
 ---
 
 ## Resumo da Simulação 2
 
 - **Clientes atendidos:** 4 (C1, C2, C3, C4)
-- **Tempo simulado:** T=0 até T=30
+- **Tempo simulado:** T0 até T30
 - **Drinks servidos:** 
   - C1: 2 drinks (de 4 no total)
   - C2: 1 drink (de 2 no total)
